@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="MyButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">#10a43c</item>
+        <!--<item name="android:colorAccent">@color/colorTextTitle</item>-->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/calendarPage">
+<!--<CalendarView-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:id="@+id/calendar"-->
+    <!--&gt;-->
+<!--</CalendarView>-->
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/colorTextTitle"
+        />
+
+<TextView
+    android:background="@drawable/tips_frame"
+    android:layout_below="@+id/addEvent"
+    android:id="@+id/TodayTips"
+    android:layout_centerHorizontal="true"
+    android:layout_width="365dp"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp">
+</TextView>
+<TextView
+    android:layout_width="130dp"
+    android:layout_height="20dp"
+    android:id="@+id/TipTitle"
+    android:text="@string/CalendarTipTitle"
+    android:textColor="@color/colorTextTitle"
+    android:layout_below="@+id/addEvent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    />
+<Button
+    style="@style/MyButton"
+    android:text="@string/addEventButtonText"
+    android:id="@+id/addEvent"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_below="@id/calendarView"
+    android:layout_marginLeft="98dp"
+    android:layout_marginBottom="15dp"
+    />
+    <Button
+        style="@style/MyButton"
+        android:text="@string/ViewDrinkingStatusButtonText"
+        android:id="@+id/ViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/calendarView"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="15dp"
+        />
+
+</RelativeLayout>
