@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:label="Calendar" android:name=".TrackCalendar.CalendarActivity"/>
-
+        <activity android:label="DrinkDetail" android:name=".AlcoholDetails.AlcoholDetailsTrack"/>
     </application>
 
 </manifest>

@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import project.alcoholmonitoring.AlcoholDetails.AlcoholDetailsTrack;
 import project.alcoholmonitoring.TrackCalendar.CalendarActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -85,6 +86,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent detailsIntent=new Intent(MainActivity.this, AlcoholDetailsTrack.class);
+            MainActivity.this.startActivity(detailsIntent);
+
         } else if (id == R.id.nav_calendar) {
             Intent calendarIntent=new Intent(MainActivity.this, CalendarActivity.class);
             MainActivity.this.startActivity(calendarIntent);
