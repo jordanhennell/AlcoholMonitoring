@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:id="@+id/volume_display"
+    android:orientation="vertical"
+    tools:showIn="@layout/alcohol_details"
+    tools:context=".AlcoholDetails.AlcoholDetailsTrack"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:weightSum="1"
+        android:id="@+id/volumeTitles"
+
+        >
+        <TextView
+            android:id="@+id/volumeTitle"
+            android:text="Volume"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+           />
+        <TextView
+            android:id="@+id/standardDrinksTitle"
+            android:text="Standard Drinks"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/volume_frames1"
+
+        >
+        <TextView
+            android:id="@+id/volume"
+            android:text="test1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/details_frame"/>
+        <TextView
+            android:id="@+id/standardDrinks"
+            android:text="test1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/details_frame"/>
+    </LinearLayout>
+
+
+</LinearLayout>

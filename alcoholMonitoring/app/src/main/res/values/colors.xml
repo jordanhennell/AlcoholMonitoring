@@ -6,4 +6,5 @@
     <color name="colorTextTitle">#208747</color>
     <color name="colorTipsFrame">#1b6840</color>
     <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
 </resources>

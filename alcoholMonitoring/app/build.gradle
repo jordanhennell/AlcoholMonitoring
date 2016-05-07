@@ -28,4 +28,6 @@ dependencies {
     compile 'com.android.support:design:23.3.0'
     compile 'com.prolificinteractive:material-calendarview:1.2.0'
     compile 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.6.0'
+    compile 'com.synnapps:carouselview:0.0.9'
+
 }

@@ -5,6 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <include layout="@layout/volume_display"></include>
+
+    <include layout="@layout/drink_carousel"></include>
+    <!--todo:fix relative-->
+    <include layout="@layout/drink_quantity_buttons"
+        android:layout_width="80dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp">
+    </include>
+
     <Button
         style="@style/MyButton"
         android:layout_width="wrap_content"
