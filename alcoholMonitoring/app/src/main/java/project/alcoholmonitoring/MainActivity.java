@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            // drink details test
             Intent detailsIntent=new Intent(MainActivity.this, AlcoholDetailsTrack.class);
             MainActivity.this.startActivity(detailsIntent);
 
@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(calendarIntent);
 
         } else if (id == R.id.nav_slideshow) {
+
 
         } else if (id == R.id.nav_manage) {
 

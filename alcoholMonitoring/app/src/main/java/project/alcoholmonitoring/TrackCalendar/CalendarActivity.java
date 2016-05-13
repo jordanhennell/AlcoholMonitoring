@@ -13,13 +13,14 @@ public class CalendarActivity extends Activity
 //implements
 
 {
-    final Button addEvent=(Button)findViewById(R.id.addEvent);
-    final Button viewDrinkStatus=(Button)findViewById(R.id.ViewStatus);
+    //// TODO: 14/05/16  fix null object reference
+    //final Button addEvent=(Button)findViewById(R.id.addEvent);
+    //final Button viewDrinkStatus=(Button)findViewById(R.id.ViewStatus);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.track_calendar);
-
 
     }
 }
