@@ -1,14 +1,14 @@
-package project.alcoholmonitoring.AlcoholDetails;
+package project.alcoholmonitoring.alcohol_details;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import project.alcoholmonitoring.R;
 
 /**
  * Created by jieliang on 2/05/2016.
  */
-public class AlcoholDetailsTrack extends Activity {
+public class AlcoholDetailsTrack extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

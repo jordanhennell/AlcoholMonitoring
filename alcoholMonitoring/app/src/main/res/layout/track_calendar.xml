@@ -9,6 +9,7 @@
     <!--android:id="@+id/calendar"-->
     <!--&gt;-->
 <!--</CalendarView>-->
+
     <com.prolificinteractive.materialcalendarview.MaterialCalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"

@@ -14,8 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import project.alcoholmonitoring.AlcoholDetails.AlcoholDetailsTrack;
-import project.alcoholmonitoring.TrackCalendar.CalendarActivity;
+import project.alcoholmonitoring.alcohol_details.AlcoholDetailsTrack;
+import project.alcoholmonitoring.track_calendar.CalendarActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

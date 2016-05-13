@@ -1,15 +1,14 @@
-package project.alcoholmonitoring.TrackCalendar;
+package project.alcoholmonitoring.track_calendar;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.CalendarView;
+import android.support.v7.app.AppCompatActivity;
+
 import project.alcoholmonitoring.R;
 
 /**
  * Created by jieliang on 1/05/2016.
  */
-public class CalendarActivity extends Activity
+public class CalendarActivity extends AppCompatActivity
 //implements
 
 {

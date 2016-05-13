@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.GlassAnimation;
+package project.alcoholmonitoring.glass_animation;
 
 /**
  * Created by jieliang on 7/05/2016.

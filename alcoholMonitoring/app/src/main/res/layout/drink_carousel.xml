@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="@layout/alcohol_details"
-    tools:context=".DrinkCarousel.CarouselController"
+    tools:context=".drink_carousel.CarouselController"
     android:orientation="vertical"
     android:layout_width="150dp"
     android:layout_height="300dp"
