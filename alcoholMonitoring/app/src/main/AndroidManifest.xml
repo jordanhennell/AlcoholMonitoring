@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="project.alcoholmonitoring">
+    package="project.alcoholmonitoring"
+    >
 
     <application
         android:allowBackup="true"
+        android:name="com.activeandroid.app.Application"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="AA_DB_NAME" android:value="AM.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="project.alcoholmonitoring.database.local.tables.Cal_events,
+            project.alcoholmonitoring.database.local.tables.Beverage_specs,
+            project.alcoholmonitoring.database.local.tables.Drinks_track,
+            project.alcoholmonitoring.database.local.tables.Tips" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
