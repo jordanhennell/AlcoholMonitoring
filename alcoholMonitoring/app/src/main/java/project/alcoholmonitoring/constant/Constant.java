@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.constant;
+package project.alcoholmonitoring.Constant;
 
 /**
  * Created by xxx on 2016/5/14 0014.
