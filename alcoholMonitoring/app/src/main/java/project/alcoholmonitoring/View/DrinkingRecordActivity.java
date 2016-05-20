@@ -27,7 +27,7 @@ import project.alcoholmonitoring.entry.DrinkingRecord;
 import project.alcoholmonitoring.utils.DataHelper;
 
 /**
- * Created by xxx on 2016/5/13 0013.
+ * Created by YuxiaoXue on 2016/5/13 0013.
  */
 public class DrinkingRecordActivity extends Activity {
 

@@ -25,7 +25,7 @@ import project.alcoholmonitoring.utils.AlarmHelper;
 import project.alcoholmonitoring.utils.DataHelper;
 
 /**
- * Created by XXXX on 2016/5/13 0013.
+ * Created by YuxiaoXue on 2016/5/13 0013.
  */
 public class SettingsActivity extends Activity implements RadioGroup.OnCheckedChangeListener,
         CompoundButton.OnCheckedChangeListener{

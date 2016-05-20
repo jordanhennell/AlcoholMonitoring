@@ -14,7 +14,7 @@ import project.alcoholmonitoring.entry.Profile;
 import project.alcoholmonitoring.utils.DataHelper;
 
 /**
- * Created by xxx on 2016/5/15 0015.
+ * Created by YuxiaoXue on 2016/5/15 0015.
  */
 public class RecordViewActivity extends Activity {
 

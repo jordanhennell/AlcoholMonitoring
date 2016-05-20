@@ -6,7 +6,7 @@ import android.os.Bundle;
 import project.alcoholmonitoring.R;
 
 /**
- * Created by xxx on 2016/5/13 0013.
+ * Created by YuxiaoXue on 2016/5/13 0013.
  */
 public class LoginActivity extends Activity{
 

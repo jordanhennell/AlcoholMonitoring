@@ -1,7 +1,7 @@
 package project.alcoholmonitoring.Constant;
 
 /**
- * Created by xxx on 2016/5/14 0014.
+ * Created by YuxiaoXue on 2016/5/14 0014.
  */
 public class Constant {
 

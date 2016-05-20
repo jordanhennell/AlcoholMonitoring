@@ -18,7 +18,7 @@ import project.alcoholmonitoring.MainActivity;
 import project.alcoholmonitoring.R;
 
 /**
- * Created by xxx on 2016/5/15 0015.
+ * Created by YuxiaoXue on 2016/5/15 0015.
  */
 public class AlarmHelper {
 

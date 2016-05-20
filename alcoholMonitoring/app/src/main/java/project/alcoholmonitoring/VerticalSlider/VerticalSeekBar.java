@@ -1,7 +1,7 @@
 package project.alcoholmonitoring.VerticalSlider;
 
 /**
- * Created by jieliang on 2/05/2016.
+ * Created by Yuxiao Xue on 2/05/2016.
  */
 import android.content.Context;
 import android.content.res.TypedArray;

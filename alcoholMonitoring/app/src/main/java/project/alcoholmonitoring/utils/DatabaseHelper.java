@@ -8,11 +8,11 @@ import project.alcoholmonitoring.entry.DrinkingRecord;
 import project.alcoholmonitoring.entry.Profile;
 
 /**
- * Created by xxx on 2016/5/14 0014.
+ * Created by YuxiaoXue on 2016/5/14 0014.
  */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    //数据库版本
+
     public static final int DB_VERSION = 1;
     //The database name
     public static final String DB = "db_alcohol";

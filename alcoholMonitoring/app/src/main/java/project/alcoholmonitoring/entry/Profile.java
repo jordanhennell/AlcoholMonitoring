@@ -1,7 +1,7 @@
 package project.alcoholmonitoring.entry;
 
 /**
- * Created by wuyan on 2016/5/15 0015.
+ * Created by YuxiaoXue on 2016/5/15 0015.
  */
 public class Profile {
 

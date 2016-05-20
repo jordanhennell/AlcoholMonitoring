@@ -14,7 +14,7 @@ import project.alcoholmonitoring.entry.DrinkingRecord;
 import project.alcoholmonitoring.entry.Profile;
 
 /**
- * Created by wuyan on 2016/5/14 0014.
+ * Created by YuxiaoXue on 2016/5/14 0014.
  */
 public class DataHelper {
 
