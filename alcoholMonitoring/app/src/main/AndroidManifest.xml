@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="project.alcoholmonitoring"
-    >
+    package="project.alcoholmonitoring">
 
     <application
         android:allowBackup="true"
-        android:name="com.activeandroid.app.Application"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="AA_DB_NAME" android:value="AM.db" />
-        <meta-data android:name="AA_DB_VERSION" android:value="1" />
-        <meta-data
-            android:name="AA_MODELS"
-            android:value="project.alcoholmonitoring.database.local.tables.Cal_events,
-            project.alcoholmonitoring.database.local.tables.Beverage_specs,
-            project.alcoholmonitoring.database.local.tables.Drinks_track,
-            project.alcoholmonitoring.database.local.tables.Tips" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -28,8 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="Calendar" android:name=".track_calendar.CalendarActivity"/>
-        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrack"/>
+        <activity android:label="Calendar" android:name=".TrackCalendar.CalendarActivity"/>
+        <activity android:label="DrinkDetail" android:name=".AlcoholDetails.AlcoholDetailsTrack"/>
+        <activity android:label="Settings" android:name=".View.SettingsActivity"/>
+        <activity android:label="DrinkingRecord" android:name=".View.DrinkingRecordActivity"/>
+        <activity android:label="ViewRecord" android:name=".View.RecordViewActivity"/>
+        <activity android:label="ViewRecord" android:name=".View.WeeklySummaryActivity"/>
+        <receiver android:name="project.alcoholmonitoring.utils.AlarmReceiver">
+            <intent-filter>
+                <action android:name="project.alcoholmonitoring.action.ACTION_ALCOHOL_ALARM"/>
+            </intent-filter>
+        </receiver>
     </application>
-
 </manifest>

@@ -37,7 +37,7 @@ public class VerticalSeekBarWrapper extends FrameLayout {
         final VerticalSeekBar seekBar = getChildSeekBar();
 
         if (seekBar != null) {
-            final FrameLayout.LayoutParams lp = (FrameLayout.LayoutParams) seekBar.getLayoutParams();
+            final LayoutParams lp = (LayoutParams) seekBar.getLayoutParams();
             lp.width = ViewGroup.LayoutParams.WRAP_CONTENT;
             lp.height = h;
             seekBar.setLayoutParams(lp);

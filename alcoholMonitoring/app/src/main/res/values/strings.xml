@@ -7,5 +7,17 @@
     <string name="CalendarTipTitle">Tips For Today</string>
     <string name="ViewDrinkingStatusButtonText">View Drink Status</string>
     <string name="addEventButtonText">Add an Event</string>
+    <string name="personal_profile">Personal profile</string>
+    <string name="name">Name</string>
+    <string name="weight">Weight</string>
+    <string name="gender">Gender</string>
+    <string name="bmi">BMI</string>
+    <string name="alarm_setting">Alarm setting</string>
+    <string name="notify_setting">Message Notification</string>
+    <string name="alcohol_news">Alcohol News</string>
+    <string name="percent_sym">%</string>
+    <string name="volume_value">%1$.0fml</string>
+    <string name="degree_value">%1$.0f%%</string>
+    <string name="cost_value">%1$.0f$</string>
 
 </resources>

@@ -6,18 +6,15 @@
     android:layout_height="match_parent">
 
 
-    <include layout="@layout/volume_display" android:id="@+id/volume_display"></include>
+    <include layout="@layout/volume_display"></include>
 
-    <include layout="@layout/drink_carousel" android:id="@+id/drinkCarousel"></include>
+    <include layout="@layout/drink_carousel"></include>
     <!--todo:fix relative-->
     <include layout="@layout/drink_quantity_buttons"
         android:layout_width="80dp"
         android:layout_height="200dp"
-        android:id="@+id/drinkQuantityButtons1"
-        android:layout_toLeftOf="@+id/drinkCarousel"
-        android:layout_below="@id/volume_display"
-        android:layout_marginTop="60dp"
-        >
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp">
     </include>
 
     <Button
@@ -30,17 +27,17 @@
         android:layout_marginBottom="33dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
-    <project.alcoholmonitoring.vertical_slider.VerticalSeekBarWrapper
+    <project.alcoholmonitoring.VerticalSlider.VerticalSeekBarWrapper
         android:id="@+id/seekBarContainer1"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
         android:layout_marginLeft="300dp"
         android:layout_marginTop="120dp"
         >
-        <project.alcoholmonitoring.vertical_slider.VerticalSeekBar
+        <project.alcoholmonitoring.VerticalSlider.VerticalSeekBar
             android:id="@+id/alcoholSlider"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:seekBarRotation="CW90" />
-    </project.alcoholmonitoring.vertical_slider.VerticalSeekBarWrapper>
+    </project.alcoholmonitoring.VerticalSlider.VerticalSeekBarWrapper>
 </RelativeLayout>
