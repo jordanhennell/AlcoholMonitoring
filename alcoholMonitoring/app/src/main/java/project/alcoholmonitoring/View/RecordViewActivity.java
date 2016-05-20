@@ -63,7 +63,7 @@ public class RecordViewActivity extends Activity {
         if (mProfile == null) {
             return 0f;
         }
-        double fWeight = mProfile.weight * 0.8;
+        double fWeight = mProfile.weight * 0.008;
         if (fWeight == 0) {
             return  0f;
         }
