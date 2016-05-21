@@ -13,13 +13,30 @@
         android:text="Date/Time"
         android:id="@+id/eventDateTimeTitle" />
 
-    <EditText
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1">
+
+
+        <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="date"
+        android:layout_weight="0.5"
         android:ems="10"
-        android:id="@+id/eventDateTimeTextField"
-        android:background="@drawable/details_frame"
-        android:text="Enter a Date/Time" />
+        android:id="@+id/eventDateDisplay"
+        android:background="@drawable/details_frame" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:id="@+id/eventTimeTextField"
+            android:background="@drawable/details_frame"
+            android:text="Choose a time" />
+
+    </LinearLayout>
 
 </LinearLayout>
