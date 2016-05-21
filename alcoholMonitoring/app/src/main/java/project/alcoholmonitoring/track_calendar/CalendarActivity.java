@@ -33,7 +33,7 @@ public class CalendarActivity extends Activity
                 MaterialCalendarView cv = (MaterialCalendarView)findViewById(R.id.calendarView);
 
                 Intent intent = new Intent(CalendarActivity.this, EventActivity.class);
-                intent.putExtra("chosen_date", cv.getCurrentDate());
+                intent.putExtra("chosen_date", cv.getSelectedDate());
                 startActivity(intent);
             }
         });

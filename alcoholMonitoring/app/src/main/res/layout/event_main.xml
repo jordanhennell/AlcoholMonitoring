@@ -5,11 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/event_date" />
+    <include layout="@layout/event_date"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" />
 
     <include layout="@layout/event_reminder"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginTop="100dp" />
+
+    <include layout="@layout/event_name"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp" />
+
 
 </RelativeLayout>
