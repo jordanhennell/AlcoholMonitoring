@@ -5,6 +5,9 @@ import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
 import com.activeandroid.query.Select;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 /**
  * Created by jason_liu on 14/05/16.
  */
@@ -34,11 +37,10 @@ public class Drinks_track extends Model{
         this.mood_index = mood_index;
     }
 
-    public static Drinks_track getDateStatus()
+    public static Drinks_track getDateStatus(String date)
     {
 // TODO: 21/05/16 get query date from calendar 
-        return new Select().from(Drinks_track.class).where("Date=?").executeSingle();
-
+        return new Select().from(Drinks_track.class).where("Date=?",date).executeSingle();
     }
 
 

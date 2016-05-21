@@ -22,7 +22,7 @@ import project.alcoholmonitoring.R;
 public class AlcoholDetailsTrackActivity extends AppCompatActivity {
 
 
-    // TODO: 21/05/16 alcohol volume buttons
+
     CarouselView carouselView;
     FloatingActionButton plus;
     FloatingActionButton minus;
@@ -30,6 +30,11 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
     TextView volume;
     TextView standard_drink;
     SeekBar verticalBar;
+    //// TODO: 22/05/16 click listener 
+    FloatingActionButton mood_sad;
+    FloatingActionButton mood_smile;
+    FloatingActionButton mood_happy;
+    FloatingActionButton mood_angry;
     @Override
     public Context getApplicationContext() {
         return super.getApplicationContext();
@@ -57,9 +62,14 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         //bind vertical bar
         verticalBar=(SeekBar)findViewById(R.id.alcoholSlider);
         verticalBar.setOnSeekBarChangeListener(seekBarChangeListener);
-
+        //mood images views // TODO: 22/05/16 save mood to db
+//        mood_sad=(ImageView)findViewById(R.id.mood_sad);
+//        mood_angry=(ImageView)findViewById(R.id.mood_angry);
+//        mood_happy=(ImageView)findViewById(R.id.mood_happy);
+//        mood_smile=(ImageView)findViewById(R.id.mood_smile);
     }
 
+    //seek bar listener
     SeekBar.OnSeekBarChangeListener seekBarChangeListener=new SeekBar.OnSeekBarChangeListener() {
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -76,6 +86,7 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
 
         }
     };
+
     // carousel image listener
     ImageListener imageListener = new ImageListener() {
         @Override
