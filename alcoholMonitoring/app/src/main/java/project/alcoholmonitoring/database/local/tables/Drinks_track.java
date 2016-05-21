@@ -1,13 +1,15 @@
 package project.alcoholmonitoring.database.local.tables;
 
+import com.activeandroid.Model;
 import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
+import com.activeandroid.query.Select;
 
 /**
  * Created by jason_liu on 14/05/16.
  */
 @Table(name = "DrinksTrack")
-public class Drinks_track {
+public class Drinks_track extends Model{
     @Column(name = "Date")
     public String date;
 
@@ -31,4 +33,13 @@ public class Drinks_track {
         this.dvolume = dvolume;
         this.mood_index = mood_index;
     }
+
+    public static Drinks_track getDateStatus()
+    {
+// TODO: 21/05/16 get query date from calendar 
+        return new Select().from(Drinks_track.class).where("Date=?").executeSingle();
+
+    }
+
+
 }

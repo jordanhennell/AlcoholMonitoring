@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5adf1be-c064-44e9-b06f-af995154a359" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/User_Physical.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Cal_events.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Cal_events.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/drink_quantity_buttons.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/drink_quantity_buttons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java" />
     </list>
     <ignored path="alcoholMonitoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
@@ -75,71 +72,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="Beverage_specs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Beverage_specs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drink_quantity_buttons.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/drink_quantity_buttons.xml">
+      <file leaf-file-name="Cal_events.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Cal_events.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5094337">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="db_table_init.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="volume_display.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Drinks_track.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77452666">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="volume_display.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48295453">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="-9.905661">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User_Physical.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/User_Physical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -163,6 +145,16 @@
           </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tips.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1855,6 +1847,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alcohol_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java" />
       </list>
     </option>
   </component>
@@ -2081,6 +2076,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db_init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2624,13 +2623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/entry/DrinkingRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2778,13 +2770,13 @@
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding>
-            <marker date="1463812322000" expanded="true" signature="59:189444" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="95:154" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="108:139" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="193:299" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="338:454" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="432:454" placeholder="..." />
-            <marker date="1463812322000" expanded="true" signature="189387:189433" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="59:189655" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="95:154" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="108:139" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="193:299" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="338:454" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="432:454" placeholder="..." />
+            <marker date="1463815037000" expanded="true" signature="189598:189644" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2850,30 +2842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Cal_events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weekly_summary.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2883,14 +2851,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Beverage_specs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/User_Physical.java">
@@ -2965,10 +2925,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.905661">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#942#943#0" expanded="true" />
@@ -2985,15 +2956,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/volume_display.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Cal_events.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48295453">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/db_init/db_table_init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Beverage_specs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Tips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77452666">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

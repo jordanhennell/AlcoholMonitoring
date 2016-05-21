@@ -3,6 +3,7 @@ package project.alcoholmonitoring.database.local.tables;
 import com.activeandroid.Model;
 import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
+import com.activeandroid.query.Select;
 
 /**
  * Created by jason_liu on 14/05/16.
@@ -20,4 +21,18 @@ public class Tips extends Model{
         super();
         this.name = name;
     }
+
+    public static int checkEmpty()
+    {
+
+        return new Select().from(Tips.class).count();
+
+    }
+  public static Tips getRandom()
+  {
+
+      return new Select().from(Tips.class).orderBy("Random()").executeSingle();
+
+  }
+
 }
