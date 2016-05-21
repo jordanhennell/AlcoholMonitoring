@@ -1,8 +1,7 @@
-package project.alcoholmonitoring.View;
+package project.alcoholmonitoring.view;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.widget.TextView;
 
 import com.lidroid.xutils.ViewUtils;

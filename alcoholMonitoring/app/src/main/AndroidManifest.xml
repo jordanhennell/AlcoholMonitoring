@@ -18,12 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="Calendar" android:name=".TrackCalendar.CalendarActivity"/>
-        <activity android:label="DrinkDetail" android:name=".AlcoholDetails.AlcoholDetailsTrack"/>
-        <activity android:label="Settings" android:name=".View.SettingsActivity"/>
-        <activity android:label="DrinkingRecord" android:name=".View.DrinkingRecordActivity"/>
-        <activity android:label="ViewRecord" android:name=".View.RecordViewActivity"/>
-        <activity android:label="ViewRecord" android:name=".View.WeeklySummaryActivity"/>
+        <activity android:label="Calendar" android:name=".track_calendar.CalendarActivity"/>
+        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrack"/>
+        <activity android:label="Settings" android:name=".view.SettingsActivity"/>
+        <activity android:label="DrinkingRecord" android:name=".view.DrinkingRecordActivity"/>
+        <activity android:label="ViewRecord" android:name=".view.RecordViewActivity"/>
+        <activity android:label="ViewRecord" android:name=".view.WeeklySummaryActivity"/>
         <receiver android:name="project.alcoholmonitoring.utils.AlarmReceiver">
             <intent-filter>
                 <action android:name="project.alcoholmonitoring.action.ACTION_ALCOHOL_ALARM"/>

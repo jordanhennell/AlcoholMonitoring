@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.View;
+package project.alcoholmonitoring.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,7 +18,6 @@ import com.lidroid.xutils.view.annotation.event.OnClick;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 

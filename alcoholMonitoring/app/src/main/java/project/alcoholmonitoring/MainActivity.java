@@ -2,8 +2,6 @@ package project.alcoholmonitoring;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,19 +25,15 @@ import com.lidroid.xutils.view.annotation.event.OnClick;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 
-import project.alcoholmonitoring.AlcoholDetails.AlcoholDetailsTrack;
-import project.alcoholmonitoring.Constant.Constant;
-import project.alcoholmonitoring.TrackCalendar.CalendarActivity;
-import project.alcoholmonitoring.View.DrinkingRecordActivity;
-import project.alcoholmonitoring.View.RecordViewActivity;
-import project.alcoholmonitoring.View.SettingsActivity;
-import project.alcoholmonitoring.View.WeeklySummaryActivity;
+import project.alcoholmonitoring.alcohol_details.AlcoholDetailsTrack;
+import project.alcoholmonitoring.track_calendar.CalendarActivity;
+import project.alcoholmonitoring.view.DrinkingRecordActivity;
+import project.alcoholmonitoring.view.RecordViewActivity;
+import project.alcoholmonitoring.view.SettingsActivity;
+import project.alcoholmonitoring.view.WeeklySummaryActivity;
 import project.alcoholmonitoring.entry.DrinkingRecord;
-import project.alcoholmonitoring.utils.AlarmHelper;
 import project.alcoholmonitoring.utils.DataHelper;
 
 public class MainActivity extends AppCompatActivity
@@ -185,7 +178,7 @@ public class MainActivity extends AppCompatActivity
 
     private String getDateString(int weekIndex, int day, int monthIndex) {
         int index = weekIndex - 1  == -1 ? 6 : weekIndex - 1;
-        return Constant.WEEK_STR[index] + "\n" + day + " , " + Constant.MONTH_STR[monthIndex];
+        return project.alcoholmonitoring.constant.Constant.WEEK_STR[index] + "\n" + day + " , " + project.alcoholmonitoring.constant.Constant.MONTH_STR[monthIndex];
     }
 
     private void getCurrentWeekDate() {

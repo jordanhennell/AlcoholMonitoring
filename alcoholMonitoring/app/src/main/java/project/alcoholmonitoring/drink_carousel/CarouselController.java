@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.DrinkCarousel;
+package project.alcoholmonitoring.drink_carousel;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

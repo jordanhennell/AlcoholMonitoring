@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.VerticalSlider;
+package project.alcoholmonitoring.vertical_slider;
 
 /**
  * Created by Yuxiao Xue on 2/05/2016.

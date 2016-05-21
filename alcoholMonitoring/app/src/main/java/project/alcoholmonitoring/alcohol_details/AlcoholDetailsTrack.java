@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.AlcoholDetails;
+package project.alcoholmonitoring.alcohol_details;
 
 import android.app.Activity;
 import android.os.Bundle;

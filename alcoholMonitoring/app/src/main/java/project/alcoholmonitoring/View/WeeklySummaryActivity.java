@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.View;
+package project.alcoholmonitoring.view;
 
 import android.app.Activity;
 import android.graphics.Color;

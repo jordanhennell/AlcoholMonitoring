@@ -1,4 +1,4 @@
-package project.alcoholmonitoring.View;
+package project.alcoholmonitoring.view;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -18,7 +18,7 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 
 import java.util.Calendar;
 
-import project.alcoholmonitoring.Constant.Constant;
+import project.alcoholmonitoring.constant.Constant;
 import project.alcoholmonitoring.R;
 import project.alcoholmonitoring.entry.Profile;
 import project.alcoholmonitoring.utils.AlarmHelper;

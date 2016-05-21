@@ -27,17 +27,17 @@
         android:layout_marginBottom="33dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
-    <project.alcoholmonitoring.VerticalSlider.VerticalSeekBarWrapper
+    <project.alcoholmonitoring.vertical_slider.VerticalSeekBarWrapper
         android:id="@+id/seekBarContainer1"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
         android:layout_marginLeft="300dp"
         android:layout_marginTop="120dp"
         >
-        <project.alcoholmonitoring.VerticalSlider.VerticalSeekBar
+        <project.alcoholmonitoring.vertical_slider.VerticalSeekBar
             android:id="@+id/alcoholSlider"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:seekBarRotation="CW90" />
-    </project.alcoholmonitoring.VerticalSlider.VerticalSeekBarWrapper>
+    </project.alcoholmonitoring.vertical_slider.VerticalSeekBarWrapper>
 </RelativeLayout>
