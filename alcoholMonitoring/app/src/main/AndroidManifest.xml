@@ -18,8 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="AA_DB_NAME" android:value="AM.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="project.alcoholmonitoring.database.local.tables.Cal_events,
+            project.alcoholmonitoring.database.local.tables.Beverage_specs,
+            project.alcoholmonitoring.database.local.tables.Drinks_track,
+            project.alcoholmonitoring.database.local.tables.Tips" />
         <activity android:label="Calendar" android:name=".track_calendar.CalendarActivity"/>
-        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrack"/>
+        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrackActivity"/>
         <activity android:label="Settings" android:name=".view.SettingsActivity"/>
         <activity android:label="DrinkingRecord" android:name=".view.DrinkingRecordActivity"/>
         <activity android:label="ViewRecord" android:name=".view.RecordViewActivity"/>
