@@ -37,4 +37,5 @@ dependencies {
     compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
     compile files('src/main/libs/mpandroidchartlibrary-2-2-4.jar')
     compile files('src/main/libs/xUtils-2.6.14.jar')
+    compile 'com.wdullaer:materialdatetimepicker:2.3.0'
 }
