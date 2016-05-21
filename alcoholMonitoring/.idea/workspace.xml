@@ -22,30 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5adf1be-c064-44e9-b06f-af995154a359" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_mood_angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_mood_happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_mood_sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_mood_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_mood_angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_mood_happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_mood_sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_mood_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_mood_angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_mood_happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_mood_sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_mood_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_mood_angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_mood_happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_mood_sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_mood_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/details_mood.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java" afterPath="$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/database/local/tables/Drinks_track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/alcohol_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alcohol_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/drink_quantity_buttons.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/drink_quantity_buttons.xml" />
     </list>
     <ignored path="alcoholMonitoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +54,22 @@
       <file leaf-file-name="AlcoholDetailsTrackActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8192771">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state vertical-scroll-proportion="3.71066">
+              <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3020#3158#0" expanded="true" />
+                <element signature="e#3157#3158#0" expanded="true" />
+                <element signature="e#3211#3352#0" expanded="true" />
+                <element signature="e#3351#3352#0" expanded="true" />
+                <element signature="e#3405#3547#0" expanded="true" />
+                <element signature="e#3546#3547#0" expanded="true" />
+                <element signature="e#3600#3740#0" expanded="true" />
+                <element signature="e#3739#3740#0" expanded="true" />
+                <element signature="e#4275#4532#0" expanded="true" />
+                <element signature="e#4531#4532#0" expanded="true" />
+                <element signature="e#4602#4825#0" expanded="true" />
+                <element signature="e#4824#4825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +91,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.811321">
+            <state vertical-scroll-proportion="-3.3962264">
               <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
@@ -162,7 +152,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3773584">
+            <state vertical-scroll-proportion="-8.773585">
               <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
               <folding />
             </state>
@@ -2403,7 +2393,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63054186" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63054186" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63054186" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
@@ -2853,7 +2843,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.811321">
+        <state vertical-scroll-proportion="-3.3962264">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
@@ -2864,7 +2854,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3773584">
+        <state vertical-scroll-proportion="-8.773585">
           <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding />
         </state>
@@ -2872,10 +2862,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/alcoholmonitoring/alcohol_details/AlcoholDetailsTrackActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8192771">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state vertical-scroll-proportion="3.71066">
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3020#3158#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3211#3352#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3405#3547#0" expanded="true" />
+            <element signature="e#3546#3547#0" expanded="true" />
+            <element signature="e#3600#3740#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#4275#4532#0" expanded="true" />
+            <element signature="e#4531#4532#0" expanded="true" />
+            <element signature="e#4602#4825#0" expanded="true" />
+            <element signature="e#4824#4825#0" expanded="true" />
           </folding>
         </state>
       </provider>

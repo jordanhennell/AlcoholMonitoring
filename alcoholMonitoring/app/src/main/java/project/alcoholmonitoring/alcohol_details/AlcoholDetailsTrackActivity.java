@@ -30,11 +30,12 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
     TextView volume;
     TextView standard_drink;
     SeekBar verticalBar;
-    //// TODO: 22/05/16 click listener 
+    //// TODO: 22/05/16 click listener
     FloatingActionButton mood_sad;
     FloatingActionButton mood_smile;
     FloatingActionButton mood_happy;
     FloatingActionButton mood_angry;
+    TextView mood_lable;
     @Override
     public Context getApplicationContext() {
         return super.getApplicationContext();
@@ -63,12 +64,47 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         verticalBar=(SeekBar)findViewById(R.id.alcoholSlider);
         verticalBar.setOnSeekBarChangeListener(seekBarChangeListener);
         //mood images views // TODO: 22/05/16 save mood to db
-//        mood_sad=(ImageView)findViewById(R.id.mood_sad);
-//        mood_angry=(ImageView)findViewById(R.id.mood_angry);
-//        mood_happy=(ImageView)findViewById(R.id.mood_happy);
-//        mood_smile=(ImageView)findViewById(R.id.mood_smile);
-    }
+        mood_sad=(FloatingActionButton) findViewById(R.id.mood_sad);
+        mood_angry=(FloatingActionButton)findViewById(R.id.mood_angry);
+        mood_happy=(FloatingActionButton)findViewById(R.id.mood_happy);
+        mood_smile=(FloatingActionButton)findViewById(R.id.mood_smile);
+        //Fab listener
+        mood_sad.setOnClickListener(sadbtn);
+        mood_angry.setOnClickListener(angrybtn);
+        mood_happy.setOnClickListener(happybtn);
+        mood_smile.setOnClickListener(smilebtn);
+        //mood lable
+        mood_lable=(TextView)findViewById(R.id.moodLable);
 
+    }
+    //mood listeners
+    FloatingActionButton.OnClickListener sadbtn= new View.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+           mood_lable.setText("Sad");
+
+        }
+    };
+    FloatingActionButton.OnClickListener happybtn= new View.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            mood_lable.setText("Happy");
+
+        }
+    };
+    FloatingActionButton.OnClickListener smilebtn= new View.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            mood_lable.setText("Normal");
+
+        }
+    };
+    FloatingActionButton.OnClickListener angrybtn= new View.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            mood_lable.setText("Angry");
+        }
+    };
     //seek bar listener
     SeekBar.OnSeekBarChangeListener seekBarChangeListener=new SeekBar.OnSeekBarChangeListener() {
         @Override
