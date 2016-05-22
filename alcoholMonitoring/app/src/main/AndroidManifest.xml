@@ -32,6 +32,7 @@
         <activity android:label="DrinkingRecord" android:name=".view.DrinkingRecordActivity"/>
         <activity android:label="ViewRecord" android:name=".view.RecordViewActivity"/>
         <activity android:label="ViewRecord" android:name=".view.WeeklySummaryActivity"/>
+        <activity android:label="Event" android:name=".event.EventActivity" />
         <receiver android:name="project.alcoholmonitoring.utils.AlarmReceiver">
             <intent-filter>
                 <action android:name="project.alcoholmonitoring.action.ACTION_ALCOHOL_ALARM"/>
