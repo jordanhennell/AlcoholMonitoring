@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/event_reminder"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:id="@+id/eventReminderTitle" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="30 mins before event"
+        android:id="@+id/eventReminderButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/details_frame"
+        android:layout_weight="0.21" />
+
+
+</LinearLayout>

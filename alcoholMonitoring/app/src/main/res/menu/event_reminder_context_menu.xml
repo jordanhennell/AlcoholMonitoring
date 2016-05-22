@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reminder_10_minutes"
+        android:title="10 minutes before" />
+    <item
+        android:id="@+id/reminder_30_minutes"
+        android:title="30 minutes before" />
+    <item
+        android:id="@+id/reminder_1_hour"
+        android:title="1 hour before" />
+    <item
+        android:id="@+id/reminder_3_hours"
+        android:title="3 hours before" />
+    <item
+        android:id="@+id/reminder_6_hours"
+        android:title="6 hours before" />
+    <item
+        android:id="@+id/reminder_1_day"
+        android:title="1 day before" />
+</menu>
