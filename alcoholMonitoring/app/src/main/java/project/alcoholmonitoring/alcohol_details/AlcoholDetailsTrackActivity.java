@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
+import com.synnapps.carouselview.ViewListener;
 
 import project.alcoholmonitoring.R;
 
@@ -28,7 +30,7 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
     FloatingActionButton minus;
     TextView quantity;
     TextView volume;
-    TextView standard_drink;
+    EditText Alcohol_content;
     SeekBar verticalBar;
     //// TODO: 22/05/16 click listener
     FloatingActionButton mood_sad;
@@ -59,7 +61,8 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         quantity=(TextView)findViewById(R.id.quantity);
         //bind volume&standard text view
         volume=(TextView)findViewById(R.id.volume);
-        standard_drink=(TextView)findViewById(R.id.standardDrinks);
+        //edit text view
+        Alcohol_content=(EditText) findViewById(R.id.alcoholContent);
         //bind vertical bar
         verticalBar=(SeekBar)findViewById(R.id.alcoholSlider);
         verticalBar.setOnSeekBarChangeListener(seekBarChangeListener);
@@ -73,7 +76,7 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         mood_angry.setOnClickListener(angrybtn);
         mood_happy.setOnClickListener(happybtn);
         mood_smile.setOnClickListener(smilebtn);
-        //mood lable
+        //mood label
         mood_lable=(TextView)findViewById(R.id.moodLable);
 
     }
@@ -159,10 +162,14 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
     CarouselView.OnClickListener imageClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-//            carouselView.pauseCarousel();
-//  // TODO: 21/05/16 click select alcohol
-            Toast.makeText(getApplicationContext(), "clicked!",
+////            carouselView.pauseCarousel();
+////  // TODO: 21/05/16 click select alcohol
+          String temp=  Integer.toString(carouselView.getVerticalScrollbarPosition());
+           Toast.makeText(getApplicationContext(), temp,
                     Toast.LENGTH_LONG).show();
+
         }
+
     };
+
 }
