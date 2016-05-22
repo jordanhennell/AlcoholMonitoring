@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:id="@+id/eventTypeTitle" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:rowCount="2"
+        android:columnCount="4"
+        android:useDefaultMargins="true"
+        android:orientation="horizontal"
+        android:stretchMode="spacingWidthUniform">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeBusiness"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_work"
+            android:background="#e0e0e0"
+            android:allowUndo="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeSports"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_directions_bike"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeSocial"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_group"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Academic"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeAcademic"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_school"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vacation"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeVacation"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_flight"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celebration"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeCelebration"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_cake"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leisure"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeLeisure"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_tag_faces"
+            android:background="#e0e0e0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textAlignment="center"
+            android:id="@+id/eventTypeOther"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_help"
+            android:background="#e0e0e0" />
+
+
+    </GridLayout>
+
+</LinearLayout>
