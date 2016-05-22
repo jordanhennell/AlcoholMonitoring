@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.CarouselViewPager;
 import com.synnapps.carouselview.ImageListener;
 import com.synnapps.carouselview.ViewListener;
 
@@ -26,6 +28,7 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
 
 
     CarouselView carouselView;
+    CarouselViewPager carouselViewPager;
     FloatingActionButton plus;
     FloatingActionButton minus;
     TextView quantity;
@@ -52,6 +55,7 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         carouselView = (CarouselView) findViewById(R.id.carouselView);
         carouselView.setPageCount(drinkImages.length);
         carouselView.setImageListener(imageListener);
+        //carouselView.setViewListener(viewListener);
         //bind action buttons
         plus=(FloatingActionButton)findViewById(R.id.DrinkPlus);
         plus.setOnClickListener(plusB);
@@ -131,9 +135,10 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
         @Override
         public void setImageForPosition(int position, ImageView imageView) {
             imageView.setImageResource(drinkImages[position]);
-            imageView.setOnClickListener(imageClickListener);
+            imageView.setOnClickListener(imageClickListener(position));
         }
     };
+
     //plus listener
     FloatingActionButton.OnClickListener plusB= new View.OnClickListener(){
         @Override
@@ -153,23 +158,19 @@ public class AlcoholDetailsTrackActivity extends AppCompatActivity {
             if(temp >=0) {
                 quantity.setText(temp.toString());
             }
-
-
         }
     };
 
     //image click listener
-    CarouselView.OnClickListener imageClickListener = new View.OnClickListener() {
+
+    CarouselView.OnClickListener imageClickListener(final int position) { return  new View.OnClickListener() {
         @Override
         public void onClick(View v) {
 ////            carouselView.pauseCarousel();
-////  // TODO: 21/05/16 click select alcohol
-          String temp=  Integer.toString(carouselView.getVerticalScrollbarPosition());
-           Toast.makeText(getApplicationContext(), temp,
-                    Toast.LENGTH_LONG).show();
-
+////  // TODO: 21/05/16 link index with alcohol
+            Alcohol_content.setText(Integer.toString(position));
         }
-
     };
+    }
 
 }

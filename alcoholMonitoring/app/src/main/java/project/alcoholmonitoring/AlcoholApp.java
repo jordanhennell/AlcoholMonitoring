@@ -3,7 +3,7 @@ package project.alcoholmonitoring;
 import android.app.Application;
 
 import com.activeandroid.ActiveAndroid;
-
+import project.alcoholmonitoring.db.db_init.db_table_init;
 import project.alcoholmonitoring.utils.DatabaseHelper;
 
 /**
@@ -14,7 +14,8 @@ public class AlcoholApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        ActiveAndroid.initialize(this
-          );
+        ActiveAndroid.initialize(this);
+        db_table_init db=new db_table_init();
+
     }
 }
