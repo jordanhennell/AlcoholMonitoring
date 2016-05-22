@@ -24,6 +24,8 @@ import project.alcoholmonitoring.R;
 
 public class EventActivity extends Activity {
 
+    Date chosenDate;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +39,7 @@ public class EventActivity extends Activity {
     private void showChosenDate() {
         Bundle extras = getIntent().getExtras();
 
-        Date chosenDate = ((CalendarDay)extras.get("chosen_date")).getDate();
+        chosenDate = ((CalendarDay)extras.get("chosen_date")).getDate();
         String stringDate = String.format("%1$tY %1$tb %1$td", chosenDate);
 
         TextView dateTextView = (TextView)findViewById(R.id.eventDateDisplay);
@@ -87,10 +89,7 @@ public class EventActivity extends Activity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         Button reminderButton = (Button)findViewById(R.id.eventReminderButton);
-
-        ReminderService rs = new ReminderService();
-        Calendar c = Calendar.getInstance(); // TODO temp using of current time, change to actual reminder time
-        rs.createNotification(c.getTime(), 10000, this);
+        int timeSpan = 0;
 
         switch (item.getItemId()) {
             case R.id.reminder_none:
@@ -98,31 +97,35 @@ public class EventActivity extends Activity {
                 return true;
             case R.id.reminder_10_minutes:
                 reminderButton.setText(item.getTitle());
-                // Create notification
-                return true;
+                timeSpan = 600000;
+                break;
             case R.id.reminder_30_minutes:
                 reminderButton.setText(item.getTitle());
-                // Create notification
-                return true;
+                timeSpan = 1800000;
+                break;
             case R.id.reminder_1_hour:
                 reminderButton.setText(item.getTitle());
-                // Create notification
-                return true;
+                timeSpan = 3600000;
+                break;
             case R.id.reminder_3_hours:
                 reminderButton.setText(item.getTitle());
                 // Create notification
-                return true;
+                break;
             case R.id.reminder_6_hours:
                 reminderButton.setText(item.getTitle());
-                // Create notification
-                return true;
+                timeSpan = 10800000;
+                break;
             case R.id.reminder_1_day:
                 reminderButton.setText(item.getTitle());
-                // Create notification
-                return true;
+                timeSpan = 86400000;
+                break;
             default:
                 return super.onContextItemSelected(item);
         }
+
+        ReminderService rs = new ReminderService();
+        rs.createNotification(chosenDate, timeSpan, this);
+        return true;
     }
 
 }
