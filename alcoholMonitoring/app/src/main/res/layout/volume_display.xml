@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="80dp"
+    android:layout_width="match_parent" android:layout_height="60dp"
     android:id="@+id/volume_display"
     android:orientation="vertical"
+    android:layout_marginTop="30dp"
     tools:showIn="@layout/alcohol_details"
-    tools:context=".alcohol_details.AlcoholDetailsTrack"
+    tools:context=".alcohol_details.AlcoholDetailsTrackActivity"
     >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,7 +19,7 @@
         >
         <TextView
             android:id="@+id/volumeTitle"
-            android:text="Volume"
+            android:text="Volume/ML"
             android:gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -39,20 +40,23 @@
         android:layout_height="40dp"
         android:weightSum="1"
         android:id="@+id/volume_frames1"
-
         >
         <TextView
             android:id="@+id/volume"
-            android:text="test1"
+            android:text="0"
+            android:textSize="30dp"
+            android:textAlignment="center"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="0.5"
             android:background="@drawable/details_frame"/>
         <TextView
             android:id="@+id/standardDrinks"
-            android:text="test1"
+            android:text=" "
+            android:textSize="30dp"
+            android:textAlignment="center"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="0.5"
             android:background="@drawable/details_frame"/>
     </LinearLayout>

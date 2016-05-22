@@ -27,4 +27,14 @@ public class Cal_events extends Model{
     public Cal_events() {
         super();
     }
+
+    public Cal_events(String name, String type,String time,String will_drink,String reminder_time)
+    {
+        super();
+        this.name=name;
+        this.type=type;
+        this.time=time;
+        this.will_drink=will_drink;
+        this.reminder_time=reminder_time;
+    }
 }

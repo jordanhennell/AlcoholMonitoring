@@ -6,17 +6,40 @@
     android:layout_height="match_parent">
 
 
-    <include layout="@layout/volume_display"></include>
+    <include android:id="@+id/include1"
+        layout="@layout/volume_display"/>
 
-    <include layout="@layout/drink_carousel"></include>
-    <!--todo:fix relative-->
-    <include layout="@layout/drink_quantity_buttons"
+    <include
+        android:id="@+id/include2"
+        layout="@layout/drink_carousel"/>
+    <include
+        android:id="@+id/moods"
+        layout="@layout/details_mood"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+    <include android:id="@+id/include3"
+        layout="@layout/drink_quantity_buttons"
         android:layout_width="80dp"
         android:layout_height="200dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginLeft="20dp">
+        android:layout_toLeftOf="@id/include2"
+        android:layout_alignTop="@id/include2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp">
     </include>
 
+   <TextView
+       android:id="@+id/moodLable"
+       android:layout_width="100dp"
+       android:layout_height="40dp"
+       android:layout_above="@id/moods"
+       android:layout_toLeftOf="@id/include2"
+       android:text="Feeling"
+       android:textSize="25sp"
+       android:textAlignment="center"
+       />
     <Button
         style="@style/MyButton"
         android:layout_width="wrap_content"

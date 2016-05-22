@@ -27,7 +27,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import project.alcoholmonitoring.alcohol_details.AlcoholDetailsTrack;
+import project.alcoholmonitoring.alcohol_details.AlcoholDetailsTrackActivity;
 import project.alcoholmonitoring.track_calendar.CalendarActivity;
 import project.alcoholmonitoring.view.DrinkingRecordActivity;
 import project.alcoholmonitoring.view.RecordViewActivity;
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity
 
         switch (id) {
             case R.id.nav_camera:
-                startActivity(AlcoholDetailsTrack.class);
+                startActivity(AlcoholDetailsTrackActivity.class);
                 break;
             case R.id.nav_calendar:
                 startActivity(CalendarActivity.class);
