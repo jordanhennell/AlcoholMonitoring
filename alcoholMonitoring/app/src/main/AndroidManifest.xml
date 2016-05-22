@@ -38,5 +38,7 @@
                 <action android:name="project.alcoholmonitoring.action.ACTION_ALCOHOL_ALARM"/>
             </intent-filter>
         </receiver>
+        <service android:name=".event.ReminderService" >
+        </service>
     </application>
 </manifest>

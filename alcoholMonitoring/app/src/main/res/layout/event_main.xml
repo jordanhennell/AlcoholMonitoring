@@ -27,7 +27,7 @@
 
     <include layout="@layout/event_type"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="140dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="190dp" />
@@ -35,7 +35,7 @@
     <include layout="@layout/event_drink_toggle"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="330dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp" />
 
@@ -44,6 +44,6 @@
         android:layout_height="70dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:layout_marginTop="390dp"/>
+        android:layout_marginTop="410dp"/>
 
 </RelativeLayout>

@@ -18,7 +18,8 @@
         android:id="@+id/eventReminderButton"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/details_frame"
-        android:layout_weight="0.21" />
+        android:layout_weight="0.21"
+        android:drawableRight="@drawable/ic_keyboard_arrow_down" />
 
 
 </LinearLayout>

@@ -1,9 +1,13 @@
 package project.alcoholmonitoring.event;
 
 import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.app.TimePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.ContextMenu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -11,19 +15,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
-
-
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 
-import java.text.DateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 import project.alcoholmonitoring.R;
 
 public class EventActivity extends Activity {
-
-    TimePickerDialog tpd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +49,6 @@ public class EventActivity extends Activity {
 
         final TimePickerDialog tpd = new TimePickerDialog(this,
                 new TimePickerDialog.OnTimeSetListener() {
-
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay,
                                           int minute) {
@@ -90,7 +88,14 @@ public class EventActivity extends Activity {
     public boolean onContextItemSelected(MenuItem item) {
         Button reminderButton = (Button)findViewById(R.id.eventReminderButton);
 
+        ReminderService rs = new ReminderService();
+        Calendar c = Calendar.getInstance(); // TODO temp using of current time, change to actual reminder time
+        rs.createNotification(c.getTime(), 10000, this);
+
         switch (item.getItemId()) {
+            case R.id.reminder_none:
+                reminderButton.setText(item.getTitle());
+                return true;
             case R.id.reminder_10_minutes:
                 reminderButton.setText(item.getTitle());
                 // Create notification

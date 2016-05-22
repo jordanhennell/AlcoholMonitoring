@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:id="@+id/eventNameText"
-            android:background="@drawable/details_frame" />
+            android:background="@drawable/details_frame"
+            android:textAlignment="center" />
 
 </LinearLayout>
