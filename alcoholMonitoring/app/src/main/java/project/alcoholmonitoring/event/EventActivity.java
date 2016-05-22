@@ -109,11 +109,11 @@ public class EventActivity extends Activity {
                 break;
             case R.id.reminder_3_hours:
                 reminderButton.setText(item.getTitle());
-                // Create notification
+                timeSpan = 10800000;
                 break;
             case R.id.reminder_6_hours:
                 reminderButton.setText(item.getTitle());
-                timeSpan = 10800000;
+                timeSpan = 21600000;
                 break;
             case R.id.reminder_1_day:
                 reminderButton.setText(item.getTitle());
@@ -123,6 +123,7 @@ public class EventActivity extends Activity {
                 return super.onContextItemSelected(item);
         }
 
+        // TODO move creation of notification to on Save button click
         ReminderService rs = new ReminderService();
         rs.createNotification(chosenDate, timeSpan, this);
         return true;
