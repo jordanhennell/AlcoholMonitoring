@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".AlcoholApp">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -22,18 +23,23 @@
         <meta-data android:name="AA_DB_VERSION" android:value="1" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="project.alcoholmonitoring.database.local.tables.Cal_events,
-            project.alcoholmonitoring.database.local.tables.Beverage_specs,
-            project.alcoholmonitoring.database.local.tables.Drinks_track,
-            project.alcoholmonitoring.database.local.tables.Tips" />
-        <activity android:label="Calendar" android:name=".track_calendar.CalendarActivity"/>
-        <activity android:label="Event" android:name=".event.EventActivity"/>
-        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrackActivity"/>
-        <activity android:label="Settings" android:name=".view.SettingsActivity"/>
+            android:value="project.alcoholmonitoring.db.tables.Cal_events,
+            project.alcoholmonitoring.db.tables.Beverage_specs,
+            project.alcoholmonitoring.db.tables.Drinks_track,
+            project.alcoholmonitoring.db.tables.Tips,
+            project.alcoholmonitoring.db.tables.User_Physical "
+            />
+        <activity android:label="Calendar" android:name=".track_calendar.CalendarActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:label="Event" android:name=".event.EventActivity"
+            android:parentActivityName=".track_calendar.CalendarActivity"/>
+        <activity android:label="DrinkDetail" android:name=".alcohol_details.AlcoholDetailsTrackActivity"
+            android:parentActivityName=".track_calendar.CalendarActivity"/>
+        <activity android:label="Settings" android:name=".view.SettingsActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity android:label="DrinkingRecord" android:name=".view.DrinkingRecordActivity"/>
         <activity android:label="ViewRecord" android:name=".view.RecordViewActivity"/>
         <activity android:label="ViewRecord" android:name=".view.WeeklySummaryActivity"/>
-        <activity android:label="Event" android:name=".event.EventActivity" />
         <receiver android:name="project.alcoholmonitoring.utils.AlarmReceiver">
             <intent-filter>
                 <action android:name="project.alcoholmonitoring.action.ACTION_ALCOHOL_ALARM"/>

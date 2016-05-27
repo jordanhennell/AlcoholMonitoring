@@ -19,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.activeandroid.ActiveAndroid;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
@@ -28,6 +29,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import project.alcoholmonitoring.alcohol_details.AlcoholDetailsTrackActivity;
+import project.alcoholmonitoring.db.db_init.db_table_init;
 import project.alcoholmonitoring.track_calendar.CalendarActivity;
 import project.alcoholmonitoring.view.DrinkingRecordActivity;
 import project.alcoholmonitoring.view.RecordViewActivity;
@@ -60,6 +62,8 @@ public class MainActivity extends AppCompatActivity
         ViewUtils.inject(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+//db init
+        //db_table_init db=new db_table_init();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

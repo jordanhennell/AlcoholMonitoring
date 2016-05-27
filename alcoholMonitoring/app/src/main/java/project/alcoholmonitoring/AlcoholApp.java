@@ -15,7 +15,7 @@ public class AlcoholApp extends Application {
     public void onCreate() {
         super.onCreate();
         ActiveAndroid.initialize(this);
-        db_table_init db=new db_table_init();
+
 
     }
 }

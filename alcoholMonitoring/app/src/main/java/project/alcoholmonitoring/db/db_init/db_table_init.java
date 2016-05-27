@@ -4,6 +4,7 @@ package project.alcoholmonitoring.db.db_init;
 import com.activeandroid.ActiveAndroid;
 
 import project.alcoholmonitoring.db.tables.Beverage_specs;
+import project.alcoholmonitoring.db.tables.Drinks_track;
 import project.alcoholmonitoring.db.tables.Tips;
 
 /**
@@ -17,6 +18,8 @@ public class db_table_init {
         TipsInit();
         //test from log
         android.util.Log.d(Integer.toString(Beverage_specs.checkEmpty()),"data");
+        android.util.Log.d(Integer.toString(Drinks_track.checkEmpty()),"data_drinks");
+
     }
 
 // BeverageInit

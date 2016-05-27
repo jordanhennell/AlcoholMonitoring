@@ -34,6 +34,7 @@ public class EventActivity extends Activity {
         showChosenDate();
         setUpReminderPopUp();
         setUpTimePicker();
+
     }
 
     private void showChosenDate() {

@@ -4,11 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
     <include android:id="@+id/include1"
         layout="@layout/volume_display"/>
-
     <include
         android:id="@+id/include2"
         layout="@layout/drink_carousel"/>
@@ -54,8 +51,9 @@
         android:id="@+id/seekBarContainer1"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
-        android:layout_marginLeft="300dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/include2"
+        android:layout_alignTop="@id/include3"
         >
         <project.alcoholmonitoring.vertical_slider.VerticalSeekBar
             android:id="@+id/alcoholSlider"
